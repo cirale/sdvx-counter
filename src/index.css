@@ -1,13 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 20px;
+  padding: 0;
+  /*background: #292929;*/
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.vol {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #dddddd;
+  text-align: center;
+  vertical-align: middle;
+  float: left;
+  margin-right: 265px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.vol-l {
+  border: 4px solid #0084ff;
+  color: #0084ff;
+  
+}
+
+.vol-r {
+  border: 4px solid #ff0077;
+  color: #ff0077;
+}
+
+.vol-l-move {
+  border: 4px solid #0084ff;
+  color: #0084ff;
+  box-shadow: 0 0 10px #0084ff, 0 0 20px #0084ff;
+  text-shadow: 0 0 10px #0084ff, 0 0 20px #0084ff;
+  
+}
+
+.vol-r-move {
+  border: 4px solid #ff0077;
+  color: #ff0077;
+  box-shadow: 0 0 10px #ff0077, 0 0 20px #ff0077;
+  text-shadow: 0 0 10px #ff0077, 0 0 20px #ff0077;
+
+}
+
+.bt {
+  border: 1px solid #292929;
+  float: left;
+  font-size: 24px;
+  height: 50px;
+  margin-right: 15px;
+  margin-top: 10px;
+  width: 50px;
+}
+
+.bt-off {
+  background: #dddddd;
+}
+
+.bt-on {
+  background: hsl(199, 100%, 62%);
+  box-shadow: 0 0 10px #79b7ff, 0 0 20px #79b7ff
+}
+.fx {  
+  border: 1px solid #292929;
+  float: left;
+  font-size: 24px;
+  height: 20px;
+  margin-right: 90px;
+  margin-top: 20px;
+  width: 40px;
+}
+
+.fx-off {
+  background: #5a5a5a;
+}
+
+.fx-on {
+  background: hsl(0, 100%, 58%);
+  box-shadow: 0 0 10px #ff7979, 0 0 20px #ff7979
+}
+
+.row:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.row-bt {
+  margin-left: 38px;
+}
+
+.row-fx {
+  margin-left: 74px;
+}
+
+.row-count-bt {
+  margin-left: 38px;
+}
+
+.row-count-fx {
+  margin-left: 74px;
+}
+
+.bt-count {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 15px;
+  height: 20px;
+}
+
+.fx-count {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 15px;
+  width: 50px;
+  margin-right: 80px;
 }
