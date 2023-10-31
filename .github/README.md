@@ -7,3 +7,5 @@
 * FAUCE TWO
 
 # 使用方法
+こちらのURLへアクセスして使用してください。OBSのブラウザ取り込みからの利用を推奨します。
+[SDVX打鍵ツール](https://cirale.github.io/sdvx-counter/)
