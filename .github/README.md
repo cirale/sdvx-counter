@@ -7,12 +7,6 @@
 * FAUCE TWO
 
 # 使用方法
-<<<<<<< HEAD
 こちらのURLへアクセスして使用してください。OBSで使用する場合、ブラウザソースだとつまみが動かない不具合があるため、通常のブラウザから開いてウィンドウキャプチャで使用してください。
 
 [SDVX打鍵ツール](https://cirale.github.io/sdvx-counter/)
-=======
-こちらのURLへアクセスして使用してください。OBSのブラウザ取り込みからの利用を推奨します。
-
-[SDVX打鍵ツール](https://cirale.github.io/sdvx-counter/)
->>>>>>> 8232b5c6f7b5a174c90312134ea42ee8fc62514b
