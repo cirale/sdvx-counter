@@ -116,12 +116,12 @@ function SDVX() {
           setButtons(() => {
             return newButtons
           });
-
+          
           const newAxes = {
             VOL_L: gamepads[i].axes[AxesIndex.VOL_L],
             VOL_R: gamepads[i].axes[AxesIndex.VOL_R],
           }
-          setAxes(newAxes);
+          setAxes(newAxes);          
 
         } 
       }
